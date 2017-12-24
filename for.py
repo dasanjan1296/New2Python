@@ -27,10 +27,11 @@ for i in var[::-1]:
 #Used extended slicing in loop 6 to iterate in reverse
 #But this cannot be applied to all the lists. For some we need to use xrange, and its role is exactly similar to a for loop in c or java.
 #xrange doesn't exist in Python 3 onwards
-#for i in xrange(len(var)-1,-1,-1):
-    #x = var[i]
-    #print(x)
-    #print("loop 7\n")
+'''for i in xrange(len(var)-1,-1,-1):
+    x = var[i]
+    print(x)
+    print("loop 7\n")
+'''
 for i in reversed(var):
     print(i)
     print(len(i))
@@ -59,3 +60,35 @@ while var1<40 :
     print("loop 13")
     var1 += 1
 #If we dont think about the termination of the loop, it will become an infinite loop and crash the computer.
+
+var1 = 25
+for i in range(0,100,1):
+    if i is var1:
+        print(i, "is the required number\n")
+        print("Exiting for loop\n")
+        break
+    else:
+        print(i)
+        continue
+if i is 99:
+    print("Number var1 not found\n")
+
+for i in range(0,25,1):
+    if i is var1:
+        print(i, "was the required number\n")
+        print("Exiting for loop\n")
+        break
+    else:
+        continue
+if i is 24:
+    print("Number var1 not found\n")
+
+numbers = [45, 23, 13, 2, 9, 17]
+
+print("this is a list of numbers for the next loop\n")
+
+for i in range(1,101,1):
+    if i in numbers:
+        continue
+    print(i)
+    print("loop 16\n")

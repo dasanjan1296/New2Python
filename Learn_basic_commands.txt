@@ -208,4 +208,18 @@ TypeError: can't multiply sequence by non-int of type 'str'
 >>> "This deleted the entire players"
 						     
 'This deleted the entire players'
->>> 
+>>> print("anjan" + "das")
+anjandas
+
+>>> print("anjan" + 10)
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    print("anjan" + 10)
+TypeError: must be str, not int
+>>> print("anjan", 9)
+anjan 9
+>>> print(9 + 10)
+19
+>>> print(9,10)
+9 10
+>>>
