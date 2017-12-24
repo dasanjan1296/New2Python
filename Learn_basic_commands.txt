@@ -1,0 +1,211 @@
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 3 +4
+7
+]
+>>> 3+4
+7
+>>> 12 /4
+3.0
+>>> 4 ** 5
+1024
+>>> 8 +2  *10
+28
+>>> 1 8 /4
+SyntaxError: invalid syntax
+>>> 18/4
+4.5
+>>> 18//4
+4
+>>> 17//4
+4
+>>> 19//4
+4
+>>> 19%4
+3
+>>> tuna = 4
+>>> tuna ** 6
+4096
+>>> bacon = 18
+>>> bacon // tuna
+4
+>>> "string"
+'string'
+>>> 'stringalso'
+'stringalso'
+>>> 'But this'll give you an error'
+SyntaxError: invalid syntax
+>>> "But this'll not give you an error any more"
+"But this'll not give you an error any more"
+>>> "Use of '' and "" is important"
+"Use of '' and  is important"
+>>> "Use of '' and \"\" is important"
+'Use of \'\' and "" is important'
+>>> "Use of \'\' and \"\" is important"
+'Use of \'\' and "" is important'
+>>> 'Use of \'\' and "" is important'
+'Use of \'\' and "" is important'
+>>> 'Use of \' is '
+"Use of ' is "
+>>> 'Use of \'   \' is important'
+"Use of '   ' is important"
+>>> 'Use of \' \' and "" is important'
+'Use of \' \' and "" is important'
+>>> 'Use of \'  \' and "" is important'
+'Use of \'  \' and "" is important'
+>>> 'Use of \'    \' and'
+"Use of '    ' and"
+>>> 'Use of \'   \' and "" is important'
+'Use of \'   \' and "" is important'
+>>> 'Use of \'    \' and'
+"Use of '    ' and"
+>>> print("hey there")
+hey there
+>>> var = "anjanhere"
+>>> print(var)
+anjanhere
+>>> print("helloa\njan")
+helloa
+jan
+>>> print("take care of \n in a string")
+take care of 
+ in a string
+>>> print(r"helloa\njan")
+helloa\njan
+>>> print("This will print out anything in thre stream without [processing")
+This will print out anything in thre stream without [processing
+>>> print(r'Use of \'\' and "" is important')
+						     
+Use of \'\' and "" is important
+>>> print(r'Use of '' and "" is important')
+						     
+Use of  and "" is important
+>>> var1 = cook something
+						     
+SyntaxError: invalid syntax
+>>> var1 = cooksomething
+						     
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    var1 = cooksomething
+NameError: name 'cooksomething' is not defined
+>>> var1 = "cook something"
+						     
+>>> var + var1
+						     
+'anjanherecook something'
+>>> var * var1
+						     
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    var * var1
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> var *5
+						     
+'anjanhereanjanhereanjanhereanjanhereanjanhere'
+>>> user = "Tuna McFish"
+						     
+>>> user[0]
+						     
+'T'
+>>> user[5]
+						     
+'M'
+>>> user[5:7]
+						     
+'Mc'
+>>> user[-1]
+						     
+'h'
+>>> user[5:-1]
+						     
+'McFis'
+>>> user[:-1]
+						     
+'Tuna McFis'
+>>> user[:]
+						     
+'Tuna McFish'
+>>> user
+						     
+'Tuna McFish'
+>>> len(user)
+						     
+11
+>>> len("hellothere")
+						     
+10
+>>> "Lets start with lists"
+						     
+'Lets start with lists'
+>>> players = [26 , 25, 24 , 56, 57, 58]
+						     
+>>> players
+						     
+[26, 25, 24, 56, 57, 58]
+>>> print(players)
+						     
+[26, 25, 24, 56, 57, 58]
+>>> players[0]
+						     
+26
+>>> players[0:2]
+						     
+[26, 25]
+>>> players[2:5]
+						     
+[24, 56, 57]
+>>> players[2] = 92
+						     
+>>> players
+						     
+[26, 25, 92, 56, 57, 58]
+>>> players + [74, 46 , 98, 837]
+						     
+[26, 25, 92, 56, 57, 58, 74, 46, 98, 837]
+>>> players
+						     
+[26, 25, 92, 56, 57, 58]
+>>> players1 = players + [47 , 58, 45]
+						     
+>>> players.append(74)
+						     
+>>> players.append(46)
+						     
+>>> players.append([46,56])
+						     
+>>> players
+						     
+[26, 25, 92, 56, 57, 58, 74, 46, [46, 56]]
+>>> players[-1] = 98
+						     
+>>> players.append(837)
+						     
+>>> players
+						     
+[26, 25, 92, 56, 57, 58, 74, 46, 98, 837]
+>>> players[:5]
+						     
+[26, 25, 92, 56, 57]
+>>> players[0:3] = [1, 4 , 91]
+						     
+>>> players
+						     
+[1, 4, 91, 56, 57, 58, 74, 46, 98, 837]
+>>> players[0:3] = []
+						     
+>>> players
+						     
+[56, 57, 58, 74, 46, 98, 837]
+>>> "Deleted three elements "
+						     
+'Deleted three elements '
+>>> players[:] = []
+						     
+>>> players
+						     
+[]
+>>> "This deleted the entire players"
+						     
+'This deleted the entire players'
+>>> 
