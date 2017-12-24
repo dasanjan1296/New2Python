@@ -51,3 +51,11 @@ for i in range(10, 40, 3):
 for i in range(len(var)-1,-1,-1):
     print(var[i])
     print("loop 12\n")
+
+var1 = 25
+
+while var1<40 :
+    print(var1)
+    print("loop 13")
+    var1 += 1
+#If we dont think about the termination of the loop, it will become an infinite loop and crash the computer.
